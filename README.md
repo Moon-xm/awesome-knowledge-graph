@@ -39,7 +39,7 @@
 知识图谱增强语言模型是最近两年比较流行，主要发生在BERT出来之后，将知识先验信息融入到语言模型，可以说是知识图谱助力NLP十分关键的一环，将该专题放在比较靠前的位置。
 
 
-- [ERNIE: Enhanced Representation through Knowledge Integration(2019)](https://arxiv.org/abs/1904.09223)[百度版本ERNIE，在预训练阶段Mask Token时引入了Entity级别和Phase级别，似的模型在学习时能够将某些特定知识作为一个整体进行学习。]
+- [ERNIE: Enhanced Representation through Knowledge Integration(2019)](https://arxiv.org/abs/1904.09223)[百度版本ERNIE，在预训练阶段Mask Token时引入了Entity级别和Phase级别，使得模型在学习时能够将某些特定知识作为一个整体进行学习。]
 - [ERNIE: Enhanced Language Representation with Informative Entities(2019)](https://arxiv.org/abs/1905.07129)[清华版本ERNIE，将从句子中识别出的Entity的Embedding与原句子Embedding同时K-Encoder新设计的模块，在该模块中也采用多头注意力机制之后融合编码在分别输出到下一层。]
 - [Latent Relation Language Models(2019)](https://arxiv.org/pdf/1908.07690.pdf)[将文本中实体在知识图谱中的结构作为条件建模到概率语言模型中。]
 - [K-BERT: Enabling Language Representation with Knowledge Graph](https://arxiv.org/pdf/1909.07606.pdf)
